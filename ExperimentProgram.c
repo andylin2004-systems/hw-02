@@ -22,5 +22,8 @@ int main() {
     printf("Pi to 3 sig figs is %0.3f\n", M_PI);
     printf("Pi to 4 sig figs is %0.4f\n", M_PI);
     printf("Pi to 5 sig figs is %0.5f\n", M_PI);
+    //how to make sure that youre not an apple sheep and test out strings
+    char myTakesOnTheNewIPhone[] = "the 13 sucks. the 13 pro is overpriced. the 12 is overpriced and sucks. there is one true good iphone--the 11";
+    printf("%s", myTakesOnTheNewIPhone);
     return 0;
 }
